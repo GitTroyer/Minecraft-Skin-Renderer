@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MinecraftSkinRenderer"
+version = "1.0"
+description = "Render Minecraft skins as static images or animated GIFs using OpenGL"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  {name = "Nextroyer", email = "isidritoperez08@gmail.com"}
+]
+license = { text = "MIT" }
+keywords = ["minecraft", "skin", "render", "opengl", "gif", "png"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Multimedia :: Graphics",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+  "requests>=2.31.0",
+  "numpy>=1.26.0",
+  "Pillow>=10.0.0",
+  "moderngl>=5.8.0",
+  "termcolor>=2.4.0",
+]
+
+[project.urls]
+Repository = "https://github.com/GitTroyer/Minecraft-Skin-Renderer"
+Issues = "https://github.com/GitTroyer/Minecraft-Skin-Renderer/issues"
+Pull requests = "https://github.com/GitTroyer/Minecraft-Skin-Renderer/pulls"
+
+[tool.setuptools]
+py-modules = ["MinecraftSkinRenderer"]
