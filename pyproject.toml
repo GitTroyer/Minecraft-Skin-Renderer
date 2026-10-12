@@ -38,7 +38,7 @@ dependencies = [
 [project.urls]
 Repository = "https://github.com/GitTroyer/Minecraft-Skin-Renderer"
 Issues = "https://github.com/GitTroyer/Minecraft-Skin-Renderer/issues"
-Pull requests = "https://github.com/GitTroyer/Minecraft-Skin-Renderer/pulls"
+Pull-requests = "https://github.com/GitTroyer/Minecraft-Skin-Renderer/pulls"
 
 [tool.setuptools]
 py-modules = ["MinecraftSkinRenderer"]
