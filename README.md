@@ -34,7 +34,7 @@ For local development:
 
 ```bash
 git clone https://github.com/GitTroyer/Minecraft-Skin-Renderer.git
-cd MinecraftSkinRenderer
+cd Minecraft-Skin-Renderer
 ```
 
 
