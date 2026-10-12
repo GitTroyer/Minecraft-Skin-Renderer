@@ -119,11 +119,11 @@ The library creates images like this:
 
 - **A static 3D-styled render**
 
-    ![Skin 3D Render](src\renders\MC_skin_3d.png)
+    ![Skin 3D Render](src/renders/MC_skin_3d.png)
 
 - **A rotating GIF animation around the character model**
 
-    ![Skin 3D Render](src\renders\MC_skin_3d_turnable.gif)
+    ![Skin 3D Render](src/renders/MC_skin_3d_turnable.gif)
 
 The default example uses a Minecraft skin texture URL and saves it to the `renders/` directory.
 
